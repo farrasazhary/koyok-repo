@@ -10,6 +10,12 @@
   background-image: -o-linear-gradient(right, #000000 0%, #272126 51%, #000000 100%);
   background-image: linear-gradient(to left, #000000 0%, #272126 51%, #000000 100%);
 }
+.btn_20, .live_stareams .live_stareams_slide .live_stareams_slide_img:after, .Latest_War .Latest_War_text:after, .gallery_part .single_gallery_item .single_gallery_item_iner:after, .footer_part .single_footer_part .mail_part .email_icon {
+  /* background-image: -webkit-gradient(linear, right top, left top, from(#685454), color-stop(51%, #e0abd5), to(#ff0000)); */
+  /* background-image: -webkit-linear-gradient(right, #000000 0%, #272126 51%, #000000 100%); */
+  /* background-image: -o-linear-gradient(right, #000000 0%, #272126 51%, #000000 100%); */
+  background-image: linear-gradient(to left, #000000 0%, #b10e3f 51%, #000000 100%);
+}
 
 /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
 .main_menu .main-menu-item .nav-item a:before {
@@ -21,6 +27,12 @@
 
 /* line 14, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
 .cta_part .banner_btn_1:hover, .cta_part .banner_btn_2:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(#57ddff), color-stop(51%, #57ddff), to(#57ddff));
+  background-image: -webkit-linear-gradient(right, #57ddff 0%, #57ddff 51%, #57ddff 100%);
+  background-image: -o-linear-gradient(right, #57ddff 0%, #57ddff 51%, #57ddff 100%);
+  background-image: linear-gradient(to left, #57ddff 0%, #57ddff 51%, #57ddff 100%);
+}
+.cta_part .banner_btn_20:hover, .cta_part .banner_btn_2:hover {
   background-image: -webkit-gradient(linear, right top, left top, from(#57ddff), color-stop(51%, #57ddff), to(#57ddff));
   background-image: -webkit-linear-gradient(right, #57ddff 0%, #57ddff 51%, #57ddff 100%);
   background-image: -o-linear-gradient(right, #57ddff 0%, #57ddff 51%, #57ddff 100%);
@@ -71,6 +83,17 @@ input:hover, input:focus {
   background-image: url(../img/Section-5back.jpg);
   background-size: cover;
   background-position: 10% 60%;
+}
+.product_padding {
+  /* margin-top: 40px; */
+  padding: 140px 0px;
+  background-image: url(../img/product/T240B-BG-01.png);
+  background-size: cover;
+  background-position: 10% 60%;
+}
+
+.product_section {
+  margin-top: 50px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -570,9 +593,33 @@ ul {
   border: 1px solid transparent;
   border-radius: 20px;
 }
+.btn_20 {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 15px 40px;
+  border-radius: 0;
+  font-size: 15px;
+  font-family: "Aclonica", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  text-transform: capitalize;
+  background-size: 200% auto;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  /* border-top: 1px;
+  border-bottom: 1px; */
+  /* border-radius: 20px; */
+}
 
 /* line 39, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_button.scss */
 .btn_1:hover {
+  color: #fff !important;
+  background-position: right center;
+}
+.btn_20:hover {
   color: #fff !important;
   background-position: right center;
 }
@@ -2591,6 +2638,8 @@ ul {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
 }
 
 /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
