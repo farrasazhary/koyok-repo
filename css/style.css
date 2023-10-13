@@ -2632,6 +2632,24 @@ ul {
 
 /**************** banner part css start ****************/
 /* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+.banner_liquid {
+  position: relative;
+  background-image: url(../img/product/liquidsama.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+}
+.banner_cooler {
+  position: relative;
+  background-image: url(../img/product/CPU-COOLER.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+}
 .banner_part {
   position: relative;
   background-image: url(../img/PC.png);
@@ -2642,15 +2660,34 @@ ul {
   background-blend-mode: darken;
 }
 
+
 /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+.banner_liquid .banner_text {
+  display: table;
+  width: 100%;
+  height: 1020px;
+}
 .banner_part .banner_text {
+  display: table;
+  width: 100%;
+  height: 1020px;
+}
+.banner_cooler .banner_text {
   display: table;
   width: 100%;
   height: 1020px;
 }
 
 /* line 12, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+.banner_liquid .banner_text .banner_text_iner {
+  display: table-cell;
+  vertical-align: middle;
+}
 .banner_part .banner_text .banner_text_iner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.banner_cooler .banner_text .banner_text_iner {
   display: table-cell;
   vertical-align: middle;
 }
