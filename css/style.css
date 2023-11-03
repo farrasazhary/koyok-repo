@@ -2668,6 +2668,24 @@ ul {
   background-color: rgba(0,0,0,0.5);
   background-blend-mode: darken;
 }
+.banner_cooler {
+  position: relative;
+  background-image: url(../img/product/CPU-COOLER.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+}
+.banner_ssd {
+  position: relative;
+  background-image: url(../img/bacground-sample/ssd/main-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+}
 .banner_part {
   position: relative;
   background-image: url(../img/PC.png);
@@ -2705,6 +2723,11 @@ ul {
   width: 100%;
   height: 1020px;
 }
+.banner_ssd .banner_text {
+  display: table;
+  width: 100%;
+  height: 1020px;
+}
 
 /* line 12, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
 .banner_liquid .banner_text .banner_text_iner {
@@ -2724,6 +2747,10 @@ ul {
   vertical-align: middle;
 }
 .banner_cooler .banner_text .banner_text_iner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.banner_ssd .banner_text .banner_text_iner {
   display: table-cell;
   vertical-align: middle;
 }
