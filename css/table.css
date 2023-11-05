@@ -1,0 +1,63 @@
+.specs-table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.spec-table th, td{
+    border: 1px solid;
+    padding: 20px;
+    line-height: 25px;
+    font-weight: 200;
+    color: white;
+}
+
+.spec-table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.installation-guide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    padding-bottom: 5px;
+}
+
+.support-guide p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.download-section {
+    font-size: 25px;
+}
+
+.installation-guide a {
+    font-size: 25px;
+    padding: 30px;
+}
+
+ .download-section a {
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+ .download-section a:hover {
+    color: #fff;
+    border-radius: 5px;
+    background-color: red;
+}
