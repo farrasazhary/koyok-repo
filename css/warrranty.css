@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* banner section */
+.banner-00 {
+    background-image: url(../src/img/KYO-GROUP/BACKGROUND-07.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+.banner-01 {
+    background-image: url(../src/img/RMA-KYO/BACKGROUND-01.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+.banner-02 {
+    background-image: url(../src/img/RMA-KYO/BACKGROUND-02.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+.banner-03 {
+    background-image: url(../src/img/RMA-KYO/BACKGROUND-03.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+.banner-04 {
+    background-image: url(../src/img/RMA-KYO/BACKGROUND-04.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+.banner-05 {
+    background-image: url(../src/img/RMA-KYO/BACKGROUND-05.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  /* group section 00*/
+ .container-00 {
+    padding: 50px;
+ }
+ .banner_text_iner_00 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .banner_text_iner_00 img {
+    margin: 40px;
+    width: 20%;
+    height: 100%;
+  }
+  .group_00 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+  }
+
+  .group_00 img {
+    width: 5%;
+  }
+
+  .group_00 p{
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+  }
+  .group_00 h1{
+    color: #fff;
+    /* text-align: center; */
+  }
+  /* group section 01*/
+ .container-01 {
+    padding: 50px;
+ }
+ .banner_text_iner_01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .banner_text_iner_01 img {
+    margin: 40px;
+    width: 50%;
+    height: 100%;
+  }
+  .group_01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+  }
+
+  .group_01 p{
+    color: #000000;
+    text-align: left;
+    font-size: 20px;
+  }
+  .group_01 h1{
+    color: #000000;
+    text-align: center;
+  }
+  .banner_text_iner_01 button {
+    padding: 20px;
+    width: 200px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .banner_text_iner_01 button:hover {
+    background-color: #fff;
+    color: #000000;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  /* group section 02 */
+
+  .container-02 {
+    padding: 50px;
+ }
+ .banner_text_iner_02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .banner_text_iner_02 img {
+    margin: 40px;
+    width: 20%;
+    height: 100%;
+  }
+  .group_02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  .group_02 img {
+    width: 10%;
+  }
+
+  .group_02 .desc-first{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+  }
+  .group_02 .title-first{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    margin-top: 30px;
+  }
+
+  .desc_02 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desc {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .desc p {
+    text-align: center;
+  }
+
+  .group_11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px;
+    color: #fff;
+  }
+
+  .group_11 h1 {
+    text-align: center;
+  }
+  .group_10 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .group_10 h1{
+    font-size: 50px;
+  }
+  .group_10 p{
+    font-size: 25px;
+  }
+  .group_20 p{
+    font-size: 25px;
+  }
+  .group_30 p{
+    font-size: 25px;
+  }
+
+  .group_20 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .group_20 h1{
+    font-size: 50px;
+  }
+  .group_30 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .group_30 h1{
+    font-size: 50px;
+  }
+  
+  .banner_text_iner_04 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 30px;
+  }
+  
+  .banner_text_iner_04 p{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+  }
+  .banner_text_iner_04 h1{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .img-sec img {
+    width: 200px;
+    gap: 100px;
+  }
+  
+  .img-sec .img-cen {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .container-05 {
+    padding: 200px;
+  }
+  .group_50 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .group_50 h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 50px;
+  }
+  .group_50 p {
+    text-align: justify;
+    padding-bottom: 100px;
+    font-size: 25px;
+  }
+  .group_50 img {
+    width: 20%;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .img-sec .img-cen {
+        margin: 0;
+      }
+      .img-sec {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+  }
+  @media screen and (max-width: 825px) {
+
+  }
+  @media screen and (max-width: 600px) {
+    .banner_text_iner_00 {
+        flex-direction: column;
+    }
+
+    .group_00 {
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .group_00 p {
+        text-align: center;
+    }
+    .banner_text_iner_01 {
+        flex-direction: column;
+    }
+    .group_01 {
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .group_01 p {
+        text-align: center;
+    }
+    .container-05 {
+        padding: 70px;
+    }
+    .container-05 p {
+        text-align: center;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .group_11 {
+        padding: 50px;
+    }
+   
+    .group_10 p{
+        font-size: 20px;
+    }
+    .group_20 p{
+        font-size: 20px;
+    }
+    .group_30 p{
+        font-size: 20px;
+    }
+  }
