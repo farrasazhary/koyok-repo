@@ -2,7 +2,49 @@
 @import url("https://fonts.googleapis.com/css?family=Aclonica|Poppins:300,400,500,600&display=swap");
 /* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
 
+.whatsapp {
+  position: fixed;
+  z-index: 99;
+  bottom: 30px;
+  right: 30px;
+}
 
+.whatsapp a img:hover {
+  background-color: #fff;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.download-section {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.download-section a {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.ecom h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+.ecom-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ecom-logo img {
+  width: 400px;
+}
+
+.ecom-logo img:hover {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
 
 .btn_1, .live_stareams .live_stareams_slide .live_stareams_slide_img:after, .Latest_War .Latest_War_text:after, .gallery_part .single_gallery_item .single_gallery_item_iner:after, .footer_part .single_footer_part .mail_part .email_icon {
   background-image: -webkit-gradient(linear, right top, left top, from(#685454), color-stop(51%, #e0abd5), to(#ca6262));
@@ -81,6 +123,13 @@ input:hover, input:focus {
   /* margin-top: 40px; */
   padding: 140px 0px;
   background-image: url(../img/Section-5back.jpg);
+  background-size: cover;
+  background-position: 10% 60%;
+}
+.section_contact {
+  /* margin-top: 40px; */
+  padding: 140px 0px;
+  background-image: url(../src/img/CONTACT/BACKGROUND-01.png);
   background-size: cover;
   background-position: 10% 60%;
 }
@@ -2904,7 +2953,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 140px 0 190px;
+  padding: 200px 0 190px;
   overflow: hidden;
 }
 
@@ -2995,8 +3044,8 @@ ul {
 .live_stareams .live_stareams_slide .live_stareams_slide_img {
   position: relative;
   z-index: 1;
-  width: 440px;
-  height: 440px;
+  width: 480px;
+  /* height: 360px; */
 }
 
 /* line 65, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_live_stareams.scss */
@@ -6346,6 +6395,12 @@ h1, h2, h3, h4, h5, h6 {
 /* line 1, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_breadcrumb.scss */
 .breadcrumb_bg {
   background-image: url("../img/breadcrumb.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact_bg {
+  background-image: url("../src/img/CONTACT/PSU+BG.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
