@@ -34,7 +34,7 @@
 }
 
 .product-section img {
-    width: 70%;
+    width: 100%;
 }
 .product-section p {
     padding: 20px;
@@ -49,4 +49,21 @@
 
 .product-display h1 {
     font-size: 50px;
+}
+
+@media screen and (max-width: 870px){
+    .banner_ram {
+        height: 300px;
+    }
+    .banner_ssd {
+        height: 300px;
+    }
+    
+
+    .cooler-hero h1 {
+        display: none;
+    }
+    .cooler-hero p {
+        display: none;
+    }
 }

@@ -25,6 +25,7 @@
   border: 1px solid black;
   border-radius: 5px;
   background-color: black;
+  color: #fff;
 }
 
 .ecom h1 {
@@ -45,6 +46,35 @@
   border-radius: 10px;
   transition: all 0.5s;
 }
+
+@media screen and (max-width: 630px) {
+  .download-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .ecom-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .ecom-logo img {
+    width: 200px;
+  }
+
+  .cooler-hero h1 {
+    font-size: 40px;
+  }
+  .cooler-hero p {
+    font-size: 15px;
+  }
+}
+
 
 .btn_1, .live_stareams .live_stareams_slide .live_stareams_slide_img:after, .Latest_War .Latest_War_text:after, .gallery_part .single_gallery_item .single_gallery_item_iner:after, .footer_part .single_footer_part .mail_part .email_icon {
   background-image: -webkit-gradient(linear, right top, left top, from(#685454), color-stop(51%, #e0abd5), to(#ca6262));
@@ -4176,6 +4206,15 @@ ul {
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.pricing_part .single_pricing_part a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.pricing_part .single_pricing_part a:hover {
+  color: red;
 }
 
 @media (max-width: 991px) {

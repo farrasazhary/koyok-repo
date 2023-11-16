@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- ssd css -->
+    <link rel="stylesheet" href="../css/ssd.css">
 
     <style>
         .single_pricing_part {
@@ -73,6 +75,27 @@
             gap: 30px;
             justify-content: center;
             align-items: center;
+        }
+
+        .product-section img {
+            width: 700px;
+        }
+
+        @media screen and (max-width: 630px) {
+            /* .gambar-produk {
+                grid-template-columns: 1fr;
+            }
+
+            .banner_ram {
+                height: 300px;
+            } */
+
+            .cooler-hero h1 {
+                font-size: 40px;
+            }
+            .cooler-hero p {
+                font-size: 15px;
+            }
         }
     </style>
 </head>
@@ -148,8 +171,8 @@
                 </div>
             </div>
         </section>
-        <!-- banner part start-->
-
+        <!-- banner part start-->  
+        
         <!-- pricing part start-->
         <section class="pricing_part padding_top">
             <div class="container">
@@ -160,26 +183,30 @@
                         </div>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos data-aos-duration="1000">
-                        <div class="single_pricing_part">
-                            <p>DESKTOP MEMORY</p>
-                            <img src="../img/product/ram/desktop-ram/KYO KAIZEN DDR5.png" alt="" >
-                            <a href="../product/memory/desktop-memory.html" zclass="btn_2">Choose Plane</a>
+                <div class="row justify-content-center">
+                    <section class="ssd">
+                        <div class="product-container">
+                            <div class="product-section" data-aos="fade-up" data-aos data-aos-duration="1000">
+                                <h4>Desktop Memory</h4>
+                                <div class="product-display">                                
+                                    <a href="../product/memory/desktop-memory.html"><img src="../img/product/ram/desktop-ram/KYO KAIZEN DDR5.png" alt=""></a>
+                                </div>
+                                <a href="../product/memory/desktop-memory.html">See More</a>
+                            </div>
+                            <div class="product-section" data-aos="fade-up" data-aos data-aos-duration="1000" data-aos-delay="200">
+                                <h4>Laptop Memory</h4>
+                                <div class="product-display">
+                                    <a href="../product/memory/laptop-memory.html"><img src="../img/product/ram/laptop-ram/KYO RAMPAGE DDR5.png" alt=""></a>
+                                </div>
+                                <a href="../product/memory/laptop-memory.html">See More</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos data-aos-duration="1000" data-aos-delay="200">
-                        <div class="single_pricing_part">
-                            <p>LAPTOP MEMORY</p>
-                            <img src="../img/product/ram/laptop-ram/KYO RAMPAGE DDR5.png" alt="">
-                            <a href="../product/memory/laptop-memory.html" zclass="btn_2">Choose Plane</a>
-                        </div>
-                    </div>
+                    </section>
                    
                 </div>
             </div>
         </section>
-        <!-- pricing part end-->     
+        <!-- pricing part end-->
 
         <!--::footer_part start::-->
         <footer class="footer_part">

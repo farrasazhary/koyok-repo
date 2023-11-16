@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="../../css/style.css">
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- cooler css -->
+    <link rel="stylesheet" href="../../css/cooler.css">
 
     <style>
         .single_pricing_part {
@@ -132,7 +134,32 @@
     transition: all 0.5s;
 }
 
+@media screen and (max-width: 1270px) {
+    .gambar-produk {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 960px) {
+    .gambar-produk {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 630px) {
+    .gambar-produk {
+        grid-template-columns: 1fr;
+    }
 
+    .banner_liquid {
+        height: 300px;
+    }
+
+    .cooler-hero h1 {
+        display: none;
+    }
+    .cooler-hero p {
+        display: none;
+    }
+}
 
     </style>
 </head>

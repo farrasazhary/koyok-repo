@@ -1,0 +1,9 @@
+@media screen and (max-width: 980px) {
+    #carouselExampleCaptions {
+        margin-top: 80px;
+    }
+
+    .main_menu {
+        background-color: #2e2e2e;
+    }
+}
