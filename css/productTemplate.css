@@ -1,0 +1,207 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.show-type h1{
+    color: #fff;
+}
+.show-type .type{
+    display: flex;
+    gap: 20px;
+}
+.show-type .type p{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.show-type p{
+    font-size: 20px;
+}
+
+.ecom img {
+    width: 100px;
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+  margin: 0 2px;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.active, .dot:hover {
+  border: 2px solid rgb(0, 89, 255);
+}
+
+/* Fading animation */
+.fade {
+  animation-name:fade;
+  animation-duration: 9999s;
+}
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+.description {
+    margin-top: 50px;
+}
+.description p{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.description .desc-title{
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.spec-title {
+    text-align: center;
+    padding: 10px;
+}
+.spec-title p {
+    font-size: 25px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.datasheet {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: azure;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.datasheet p{
+    margin: 0;
+    font-weight: 500;
+}
+.datasheet i{
+    font-size: 25px;
+}
+.datasheet p a{
+    color: black;
+    text-decoration: none;
+}
+.datasheet p a:hover{
+    color: red;
+}
+
+.software {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: azure;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.software p{
+    margin: 0;
+    font-weight: 500;
+}
+.software i{
+   font-size: 25px;
+}
+.software p a{
+    color: black;
+    text-decoration: none;
+}
+.software p a:hover{
+    color: red;
+}
