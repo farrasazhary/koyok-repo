@@ -47,6 +47,38 @@
   transition: all 0.5s;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.input-form {
+  position: relative;
+  display: flex;
+  width: 60%;
+}
+.input-form input{
+  padding: 25px;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 13px;
+  margin-right: 5px;
+  border-radius: 100%;
+  border: none;
+  background-color: transparent;
+}
+.input-form button i {
+  font-size: 25px;
+  font-weight: 900;
+}
+
 @media screen and (max-width: 630px) {
   .download-section {
     display: flex;
@@ -2722,7 +2754,7 @@ ul {
 }
 .banner_mobo {
   position: relative;
-  background-image: url(../img/product/MOBO/SECTION/Banner.png);
+  background-image: url(../src/img/CAROUSEL/mobo-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -2749,7 +2781,7 @@ ul {
 }
 .banner_cooler {
   position: relative;
-  background-image: url(../img/product/CPU-COOLER.png);
+  background-image: url(../src/img/CAROUSEL/COOLER-HOME-NEW-WEB-01.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -2767,7 +2799,7 @@ ul {
 }
 .banner_ssd {
   position: relative;
-  background-image: url(../img/bacground-sample/ssd/main-bg.png);
+  background-image: url(../src/img/CAROUSEL/SSD-HOME-NEW-WEB.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
