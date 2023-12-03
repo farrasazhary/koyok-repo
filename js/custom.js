@@ -43,6 +43,14 @@
         }
       }
     });
+
+    $("#prevBtn").click(function(){
+      $(".client_logo_slider").trigger("prev.owl.carousel");
+  });
+
+  $("#nextBtn").click(function(){
+      $(".client_logo_slider").trigger("next.owl.carousel");
+  });
   }
 
 
@@ -61,6 +69,9 @@
     client_logo.owlCarousel({
       items: 6,
       loop: true,
+      autoplay: true,
+      autoplayHoverPause: true,
+      autoplayTimeout: 5000,
       responsive: {
         0: {
           items: 3,
@@ -80,6 +91,14 @@
         }
       }
     });
+
+    $("#prevBtn").click(function(){
+      $(".client_logo_slider").trigger("prev.owl.carousel");
+  });
+
+  $("#nextBtn").click(function(){
+      $(".client_logo_slider").trigger("next.owl.carousel");
+  });
   }
 
   var review = $('.live_stareams_slide');

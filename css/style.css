@@ -3009,11 +3009,22 @@ ul {
 /* line 7, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_client_logo.scss */
 .client_logo .owl-carousel .owl-item img {
   width: auto;
+  height: 120px;
 }
 
 /* line 10, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_client_logo.scss */
-.client_logo .single_client_logo {
+.client_logo .single_client_logo a {
   height: 150px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.client_logo .single_client_logo a h4{
+  font-size: 20px;
 }
 
 /* line 12, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_client_logo.scss */
