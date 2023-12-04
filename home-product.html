@@ -89,11 +89,24 @@
 
         .filter-title a {
             transition: all 0.5s ease;
+            margin-right: 5px;
         }
 
-        .filter-title a.active {
+        .filter-title i {
+            transition: transform 0.5s ease; /* Menambahkan transisi untuk properti transform */
+        }
+
+        .filter-title i.active {
             transform: rotate(-90deg);
+        }
+        .filter-title .filter-title_text.active {
+            transform: rotate(0deg);
             transition: all 0.5s ease;
+            
+        }
+
+        .filter-title {
+            cursor: pointer;
         }
 
         .filter-section {
@@ -102,19 +115,6 @@
             gap: 20px;
             margin-left: 40px;
         }
-        /* .filter {
-            height: 50px;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            overflow: hidden;
-            transition: height all 0.5s ease;
-            border-bottom: 1px solid;
-        }
-
-        .filter.active {
-            height: 100%;
-        } */
 
         .filter {
             max-height: 35px;
@@ -124,7 +124,7 @@
         }
 
         .filter.active {
-            max-height: 500px; /* Sesuaikan dengan kebutuhan konten maksimal */
+            max-height: 500px;
         }
 
         .filter-section__menu {
@@ -141,6 +141,24 @@
             border: none;
             border-radius: 10px;
             padding: 5px 10px;
+        }
+        .filter-section__menu button:hover {
+            color: #fff;
+            background-color: #1a1a1a;
+            transition: 0.3s ease;
+            /* border: 1px solid #fff; */
+        }
+        .filter-section button {
+            border: none;
+            border-radius: 10px;
+            padding: 5px 10px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .filter-section button:hover {
+            color: #fff;
+            background-color: #1a1a1a;
+            transition: all 0.3s ease;
+            /* border: 1px solid #fff; */
         }
 
         .form-check label {
@@ -312,7 +330,7 @@
                 <div class="filter">
                     <div class="filter-title">
                         <h3>Supported Devices</h3>
-                        <a href="#"><i class="fa-solid fa-angle-left"></i></a>
+                        <a href=""><i class="fa-solid fa-angle-left"></i></a>
                     </div>
                     <div class="form-check_list">
                         <div class="form-check">
@@ -555,6 +573,7 @@
                         </div>
                     </div>
                 </div>
+                <button>Submit</button>
             </div>
             <div class="container">
                 <div class="row justify-content-center">
@@ -836,10 +855,11 @@
             <a href="contact.html"><img src="src/img/WHATSAPP/whatsapp-logo.png" alt="" style="width: 80px !important; padding: 10px;"></a>
         </div>
     </div>
+    
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const filterTitleLinks = document.querySelectorAll('.filter-title a');
+            const filterTitleLinks = document.querySelectorAll('.filter-title');
     
             filterTitleLinks.forEach(function (filterTitleLink) {
                 filterTitleLink.addEventListener('click', function (e) {
@@ -851,10 +871,21 @@
     
                     // Toggle the 'active' class on the filter title link
                     this.classList.toggle('active');
+    
+                    // Toggle the 'active' class on the icon (i element)
+                    const iconElement = this.querySelector('i.fa-angle-left');
+                    iconElement.classList.toggle('active');
+    
+                    // Check if the filter title link has the 'active' class
+                    const isActive = this.classList.contains('active');
+    
+                    // Update max-height of the filter element based on 'active' class
+                    filterElement.style.maxHeight = isActive ? '500px' : '35px';
                 });
             });
         });
     </script>
+    
 
 
     <!-- jquery plugins here-->
